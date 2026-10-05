@@ -1,0 +1,62 @@
+PERSONAL MINI-TOOLKIT - PLAN
+============================
+
+1. TOOLS AND WHAT EACH ONE DOES
+-------------------------------
+Tool 1 - Number Guessing Game:
+  The computer picks a secret number from 1 to 20 and the user keeps
+  guessing, getting "too high" or "too low" hints, until they get it right.
+
+Tool 2 - To-Do List:
+  The user can add tasks, view all tasks, and remove a task, with the tasks
+  stored in a list that changes while the program runs.
+
+Tool 3 - Simple Calculator:
+  The user enters two numbers and an operation (+, -, *, /) and the program
+  shows the result, refusing to divide by zero.
+
+Tool 4 - Name Formatter:
+  The user types their first and last name and the program prints it tidied
+  up in proper capitalisation, in uppercase, and as initials.
+
+
+2. EXACT MENU TEXT
+------------------
+=============================
+   PERSONAL MINI-TOOLKIT
+=============================
+1. Number Guessing Game
+2. To-Do List
+3. Simple Calculator
+4. Name Formatter
+5. Quit
+-----------------------------
+Choose an option (1-5):
+
+
+3. CONCEPTS USED BY EACH TOOL
+-----------------------------
+Main menu:
+  - while loop (runs until Quit)
+  - if / elif / else (routes the choice, handles invalid input)
+  - input(), print(), f-strings
+
+Number Guessing Game:
+  - while loop (keeps guessing until correct)
+  - if / elif / else (too high / too low / correct)
+  - variables, int(), random number, counter, f-strings
+
+To-Do List:
+  - list that changes (append, pop)
+  - while loop (sub-menu) and for loop (displaying tasks)
+  - if / elif / else (sub-menu choices, empty list check)
+  - f-strings
+
+Simple Calculator:
+  - if / elif / else (choose operation, check division by zero)
+  - variables, float(), f-strings
+
+Name Formatter:
+  - variables, string methods (strip, title, upper)
+  - if (empty name check)
+  - f-strings
